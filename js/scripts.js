@@ -22,7 +22,7 @@ $(document).ready(function() {
     var pet = $("select#pet").val();
     var classes = $("select#class").val();
     var wand = $("select#wand").val();
-    console.log(gender, age, pet, classes, wand);
+    
     var result = whichChar(gender, age, pet, classes, wand);
 
     $("#char").empty().append(result);
